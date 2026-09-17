@@ -35,6 +35,17 @@
 
 * [Essential Git Commands and Terms](GIt_Command_Terms.md)
 
+---
+## Workflow: how completed work is tracked here
+
+* `labs/*.md` are the assignment instructions (synced from upstream) — not our work.
+* Actual completed submissions live under `workshop/wsN/`, one folder per lab:
+  * `done-lab-0N.md` — the final write-up/answers for that lab.
+  * `receipt-*.txt` — the Blackboard submission confirmation, added once the lab is actually submitted (not present before then).
+  * Any supporting files (screenshots, source code, etc.) for that lab.
+* Team labs (e.g. Lab 2) are drafted live in a shared Google Doc first, since that's easier to co-edit in real time. Once a draft is far enough along it gets synced into `workshop/wsN/done-lab-0N.md` here, with a link back to the source doc and the sync date noted at the top — the doc stays the live copy until the lab is finalized, this file is a snapshot.
+* There is no separate `submissions/` folder — everything finished lives under `workshop/`.
+
 
 
 
