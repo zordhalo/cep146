@@ -101,17 +101,21 @@ issue #1.
 
 ### Responding to partner's feedback
 
-As of this submission, the partner has not yet created an issue or left comments
-on my repository (`zordhalo/my-course-portfolio`), so there is nothing to respond
-to yet. Ready responses when they do:
+The partner opened an issue on my repository suggesting a project showcase
+section, mirroring the one I opened on theirs:
 
-- "Thanks for the suggestion! I'll work on implementing this after I finish my current branch."
-- "Great idea! I hadn't thought of adding a project showcase. I'll create a new branch for this."
+- Issue: https://github.com/zordhalo/my-course-portfolio/issues/3 (by reimir-dev)
+- I applied the `enhancement` label (possible because I own this repo) and
+  replied: "Thanks for the suggestion, Reimir! Great idea — I hadn't thought of
+  adding a project showcase section. I'll create a new branch and add a Featured
+  Projects section using the format you outlined after I finish my current branch
+  work."
+  https://github.com/zordhalo/my-course-portfolio/issues/3#issuecomment-5918522203
 
 - [x] Star the partner's repository
 - [x] Record the URL of the issue I created on the partner's repo
-- [ ] Record the URL of the issue the partner created on my repo (pending partner)
-- [ ] Respond to the partner's feedback (pending partner)
+- [x] Record the URL of the issue the partner created on my repo
+- [x] Respond to the partner's feedback
 
 ---
 
