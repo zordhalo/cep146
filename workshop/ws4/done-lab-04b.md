@@ -67,59 +67,46 @@ issue #1.
 
 ## Exercise 4: Collaboration and Commenting (Partner Activity)
 
-**Status: Pending a lab partner.** This exercise requires a classmate's
-repository, so it cannot be completed solo. The content below is prepared and
-ready to submit once a partner is assigned.
+**Status: Complete (my half).**
 
-### Partner details (to fill in during the lab)
+### Partner details
 
-- Partner name: _______________
-- Partner GitHub username: _______________
-- Partner repository URL: _______________
+- Partner name: Reimir Jashari
+- Partner GitHub username: reimir-dev
+- Partner repository URL: https://github.com/reimir-dev/CEP146_NCC-my-course-portfolio
 
-### Issue to create on partner's repository
+### Issue created on partner's repository
 
-**Title:** `Suggestion: Add project showcase section`
+- **Title:** `Suggestion: Add project showcase section` (label: `enhancement`)
+- **URL:** https://github.com/reimir-dev/CEP146_NCC-my-course-portfolio/issues/3
 
-**Body:**
+### Line comments left on partner's README
 
-> Hi [Partner's Name]!
->
-> I was reviewing your portfolio and think it would be great to add a project
-> showcase section. Here are some ideas:
->
-> ## Suggested Addition
-> A "Featured Projects" section that could include:
-> - Brief description of each project
-> - Technologies used
-> - Links to live demos or repositories
-> - Screenshots or GIFs if applicable
->
-> ## Benefits
-> - Makes your portfolio more visually appealing
-> - Helps potential employers see your work quickly
-> - Demonstrates your range of skills
->
-> Let me know what you think!
+- On the favorite-language line: "Great choice with C — it's a solid foundation
+  and really helps you understand how things work under the hood. You could add a
+  short note on what you're hoping to build with it."
+  https://github.com/reimir-dev/CEP146_NCC-my-course-portfolio/commit/9b1b4077dd89cfbc922be393f2cf050639c5099c#r202826397
+- On the course-goals checklist: "Nice formatting! The checklist format makes it
+  easy to track progress. You might also want to add a goal about learning Markdown."
+  https://github.com/reimir-dev/CEP146_NCC-my-course-portfolio/commit/9b1b4077dd89cfbc922be393f2cf050639c5099c#r202826398
 
-**Label:** `enhancement`
+### Starred partner's repository
 
-### Line comments to leave on partner's README
+- Confirmed: https://github.com/reimir-dev/CEP146_NCC-my-course-portfolio is starred.
 
-- "Great choice of course goals! You might also want to add a goal about learning markdown."
-- "Nice formatting! The checklist format makes it easy to track progress."
+### Responding to partner's feedback
 
-### Professional responses to partner's feedback
+As of this submission, the partner has not yet created an issue or left comments
+on my repository (`zordhalo/my-course-portfolio`), so there is nothing to respond
+to yet. Ready responses when they do:
 
 - "Thanks for the suggestion! I'll work on implementing this after I finish my current branch."
 - "Great idea! I hadn't thought of adding a project showcase. I'll create a new branch for this."
 
-### Remaining partner steps (done live in the lab)
-
-- [ ] Star the partner's repository
-- [ ] Record the URL of the issue I created on the partner's repo
-- [ ] Record the URL of the issue the partner created on my repo
-- [ ] Screenshot the exchanged line comments
+- [x] Star the partner's repository
+- [x] Record the URL of the issue I created on the partner's repo
+- [ ] Record the URL of the issue the partner created on my repo (pending partner)
+- [ ] Respond to the partner's feedback (pending partner)
 
 ---
 
