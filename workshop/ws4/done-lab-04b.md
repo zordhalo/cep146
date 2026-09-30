@@ -77,8 +77,13 @@ issue #1.
 
 ### Issue created on partner's repository
 
-- **Title:** `Suggestion: Add project showcase section` (label: `enhancement`)
+- **Title:** `Suggestion: Add project showcase section`
 - **URL:** https://github.com/reimir-dev/CEP146_NCC-my-course-portfolio/issues/3
+- **Label note:** The `enhancement` label could not be applied. Adding labels is
+  a triage-level action that requires collaborator (Triage/Write) access to the
+  repository; as an outside contributor with read-only access, the label request
+  is silently ignored. The repo owner (reimir-dev) would need to apply the label,
+  or add me as a collaborator with Triage access.
 
 ### Line comments left on partner's README
 
