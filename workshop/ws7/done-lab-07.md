@@ -1,4 +1,4 @@
-# Lab 7: Git Exercises — Merge Conflicts and Bisect
+# Lab 7: Merge Conflicts and Bisect
 
 Student: Lucas Krawczak
 Completed: 2026-10-14
@@ -50,7 +50,7 @@ Final Skills section:
 - Database: SQL
 ```
 
-### Verification — `git log --oneline --graph --all`
+### Verification: `git log --oneline --graph --all`
 
 ![Resolved merge and the final file](screenshots/ws7-ex1-graph.png)
 
@@ -70,7 +70,7 @@ two separate lines of work got rejoined.
 
 **1. Why did the conflict occur? What lines were changed in both branches?**
 
-Both branches rewrote the same three lines — the contents of the `## Skills` section.
+Both branches rewrote the same three lines, the contents of the `## Skills` section.
 Desktop made them Python/Java, Intermediate, Web Development. Main made them
 C++/JavaScript, Advanced, Database. Same lines, two different answers.
 
@@ -117,7 +117,7 @@ the content means. The tool got me to the decision and then got out of the way.
 **5. How did Git help you identify where the conflict was?**
 
 It named the file, wrote the markers straight into it so the exact region was visible
-in my editor, and labelled both sides — `HEAD` for where I was, `desktop-updates` for
+in my editor, and labelled both sides: `HEAD` for where I was, `desktop-updates` for
 what was coming in. `git status` kept the file under "Unmerged paths" until I staged it.
 
 It never tried to guess. It just showed me precisely what it could not decide.
@@ -192,8 +192,8 @@ Seven commits, three checks. Matches the diagram in the lab exactly.
 About 7. Bisect throws away half the remaining range every answer, so the cost is
 log₂(n), not n. A thousand commits is about 10 checks.
 
-That's the part that surprised me. Going from 100 commits to 1000 — ten times the
-history — costs three more checks. The search barely notices how big the repo got.
+That's the part that surprised me. Going from 100 commits to 1000, ten times the
+history, costs three more checks. The search barely notices how big the repo got.
 
 **3. How is bisect different from manually checking each commit with `git checkout`?**
 
@@ -214,7 +214,7 @@ history between the last version that worked and now. "This passed in last month
 release and fails today" across a few hundred commits is exactly the shape.
 
 It gets better if the check can be scripted. `git bisect run <script>` finds the
-commit with zero input from me — I describe what "broken" means once, and it does
+commit with zero input from me. I describe what "broken" means once, and it does
 every check itself.
 
 **5. What information do you need to start a bisect session?**
@@ -240,8 +240,7 @@ the question you're answering at each step.
 - [x] Bisect output showing which commit had the bug (commit 5, `d2c3160`)
 - [x] `git log --oneline` after fixing the bug
 - [x] Answers to all 5 reflection questions
-- [ ] (Optional) Challenge: second bug hunt — not attempted
+- [ ] (Optional) Challenge: second bug hunt, not attempted
 
 ---
-*Commands executed and write-up assisted with AI (Claude) per course policy on tool
-use, same as Lab 2. Reflections are my own positions — review before submitting.*
+*AI-assisted (Claude), per course policy.*

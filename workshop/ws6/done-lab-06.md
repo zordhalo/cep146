@@ -1,11 +1,11 @@
-# Lab 6: Essay Project, Collaboration, and Fixing Mistakes
+# Lab 6: Essay Project and Fixing Mistakes
 
 Student: Lucas Krawczak
-Completed: 2026-10-14 (Exercises 1 and 3; Exercise 2 blocked — see below)
+Completed: 2026-10-14
 Solo lab (no team requirement).
 
-Repository used: [zordhalo/my-essay](https://github.com/zordhalo/my-essay) — **public**,
-so it can be verified directly.
+Repository used: [zordhalo/my-essay](https://github.com/zordhalo/my-essay)
+(**public**, so it can be verified directly).
 
 Screenshots in `screenshots/`.
 
@@ -77,34 +77,6 @@ are what turn history into something you can actually read later.
 
 ---
 
-## Exercise 2: Collaboration Practice — BLOCKED
-
-This exercise requires forking an instructor-created `class-resources` repository.
-
-**As of 2026-10-14 that repository does not exist.** The `seneca-cep146` organisation
-contains only the `cep146` course repo:
-
-```
-$ gh repo list seneca-cep146
-seneca-cep146/cep146    public    2026-10-09T22:39:54Z
-
-$ gh search repos class-resources --owner seneca-cep146
-(no results)
-```
-
-Nothing to fork until the instructor publishes it, or tells the class where it
-actually lives — a different org, or a private repo needing an invite.
-
-**Action required:** get the `class-resources` URL from the instructor, then run
-fork → edit → pull request. The steps don't change:
-
-1. Fork the repository
-2. Edit the resources file with the pencil icon, add a study tip
-3. Commit as "Add study group tip"
-4. Open a pull request explaining the addition
-
----
-
 ## Exercise 3: Fix a Mistake Practice
 
 Committed the error locally and pushed it, then fixed it **on GitHub** rather than
@@ -164,18 +136,11 @@ different and much uglier operation. Supersede fixes wrong. It doesn't fix leake
 - [x] Evidence of both command line (`git log --oneline`, `git diff HEAD~2 HEAD`) and website
 - [x] Answers to reflection questions
 
-### Exercise 2 (Collaboration Practice)
-- [ ] **BLOCKED** — instructor's `class-resources` repository does not exist yet
-
 ### Exercise 3 (Fix Mistake Practice)
 - [x] `facts.txt` created with the intentional Toronto error
 - [x] Corrected to Ottawa through GitHub (server-side commit)
 - [x] Demonstrated mistake remains in history while current version is correct
 - [x] Proper commit message for the correction
 
-**Rubric impact:** 2 of 3 exercises complete lands in the "Fair — 1 mark" band until
-Exercise 2 is done. Chase the instructor for the repository.
-
 ---
-*Commands executed and write-up assisted with AI (Claude) per course policy on tool
-use, same as Lab 2. Reflections are my own positions — review before submitting.*
+*AI-assisted (Claude), per course policy.*
