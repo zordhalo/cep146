@@ -5,13 +5,15 @@ Completed: 2026-10-14
 Solo lab (no team requirement).
 
 Supporting files in this folder: `portfolio.md` (final resolved file, Exercise 1),
-`cookies.txt` (final fixed recipe, Exercise 2).
+`cookies.txt` (final fixed recipe, Exercise 2), and `screenshots/`.
 
 ---
 
 ## Exercise 1: Personal Portfolio Conflict Simulation
 
 ### The conflict as Git reported it
+
+![The merge conflict](screenshots/ws7-ex1-conflict.png)
 
 ```
 $ git merge desktop-updates
@@ -49,6 +51,8 @@ Final Skills section:
 ```
 
 ### Verification — `git log --oneline --graph --all`
+
+![Resolved merge and the final file](screenshots/ws7-ex1-graph.png)
 
 ```
 *   0f37c63 Resolve skills conflict - combine all skills
@@ -124,6 +128,8 @@ It never tried to guess. It just showed me precisely what it could not decide.
 
 ### Bisect session (actual output)
 
+![The full bisect session](screenshots/ws7-ex2-bisect.png)
+
 ```
 $ git bisect start
 $ git bisect bad
@@ -159,6 +165,8 @@ temperature. Reading the log would never have found this. That is the whole reas
 bisect exists.
 
 ### `git log --oneline` after the fix
+
+![History after the fix](screenshots/ws7-ex2-log.png)
 
 ```
 4d16d1a Fix: Correct temperature back to 350°F
@@ -233,11 +241,6 @@ the question you're answering at each step.
 - [x] `git log --oneline` after fixing the bug
 - [x] Answers to all 5 reflection questions
 - [ ] (Optional) Challenge: second bug hunt — not attempted
-
-**Note on screenshots:** the lab asks for screenshots; the terminal output above is
-reproduced verbatim as text. If the instructor requires actual image files, re-run the
-commands locally and capture them — both repositories rebuild from the lab's own
-setup blocks.
 
 ---
 *Commands executed and write-up assisted with AI (Claude) per course policy on tool

@@ -4,8 +4,10 @@ Student: Lucas Krawczak
 Completed: 2026-10-14 (Exercises 1 and 3; Exercise 2 blocked — see below)
 Solo lab (no team requirement).
 
-Repository used: [zordhalo/my-essay](https://github.com/zordhalo/my-essay) — created
-**private**. Can be flipped to public if the instructor needs to view it directly.
+Repository used: [zordhalo/my-essay](https://github.com/zordhalo/my-essay) — **public**,
+so it can be verified directly.
+
+Screenshots in `screenshots/`.
 
 ---
 
@@ -14,6 +16,8 @@ Repository used: [zordhalo/my-essay](https://github.com/zordhalo/my-essay) — c
 Created `my-essay` on GitHub, cloned it, built `essay.txt` across three commits.
 
 ### Command line method
+
+![Command line history and diff](screenshots/ws6-ex1-cli.png)
 
 ```
 $ git log --oneline
@@ -36,6 +40,10 @@ index 1b15029..32f5ee8 100644
 diff is the two lines that showed up in between.
 
 ### GitHub website method
+
+![GitHub commit list](screenshots/ws6-ex1-github-commits.png)
+
+![A single commit's changes](screenshots/ws6-ex1-github-commit-diff.png)
 
 The commit list on GitHub shows the same three commits. Clicking each one shows the
 added lines in green for that step. Same information as `git diff`, rendered side by
@@ -115,7 +123,13 @@ $ cat facts.txt
 The capital of Canada is Ottawa
 ```
 
+![facts.txt history on GitHub](screenshots/ws6-ex3-github-history.png)
+
+![The correcting commit, Toronto to Ottawa](screenshots/ws6-ex3-github-fix-diff.png)
+
 ### Observation: the mistake is still in history
+
+![The mistake preserved in history](screenshots/ws6-ex3-cli.png)
 
 ```
 $ git log -p -- facts.txt
@@ -161,9 +175,6 @@ different and much uglier operation. Supersede fixes wrong. It doesn't fix leake
 
 **Rubric impact:** 2 of 3 exercises complete lands in the "Fair — 1 mark" band until
 Exercise 2 is done. Chase the instructor for the repository.
-
-**Note on screenshots:** terminal output above is reproduced verbatim as text rather
-than images. Capture GitHub web UI screenshots if the instructor requires them.
 
 ---
 *Commands executed and write-up assisted with AI (Claude) per course policy on tool
